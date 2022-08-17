@@ -1,0 +1,8 @@
+JAVA 9
+
+It introduced the module concept. 
+It is necessary to add a class called module-info.java to describe the modules of the system.
+
+Each module has 2 properties_
+	exports		-> it says what module is public to general use
+	requires	-> it says what other modules are necessary for the current module.
